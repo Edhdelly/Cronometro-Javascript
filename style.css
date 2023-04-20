@@ -8,9 +8,9 @@
 
 body {
     background: linear-gradient(to top right, black, blue, black);
-    background-size: cover;
-    overflow-y: hidden;
-    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 
@@ -68,8 +68,6 @@ button:hover {
 
 
 @media only screen and (max-width: 600px) {
-
-
 
     .buttons {
         margin: 0;
