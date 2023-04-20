@@ -6,10 +6,8 @@
 
 }
 
-body {
-    overflow-y: hidden;
-    height: 655px;
-    background-image: linear-gradient(to bottom right, black, #001747, black)
+.body {
+    background-image: linear-gradient(to bottom right, black, blue, black);
 }
 
 .container {
@@ -19,8 +17,9 @@ body {
     flex-flow: column;
     height: 600px;
     max-width: 500px;
+    padding: auto;
     margin: auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .title {
@@ -81,5 +80,9 @@ body {
 
     .buttons button {
         margin-top: 10px;
+    }
+
+    .title {
+        font-size: 30px;
     }
 }
