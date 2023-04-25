@@ -1,2 +1,2 @@
 # Cronometro-Javascript
- Uma projeto de um cronõmetro usando HTML. CSS e JAVASCRIPT
+ Uma projeto de um cronômetro usando HTML. CSS e JAVASCRIPT
